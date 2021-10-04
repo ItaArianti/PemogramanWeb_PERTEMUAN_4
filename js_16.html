@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>latihan perulangan III(Do-while)</title>
+</head>
+<body>
+<script language = "JavaScript"> 
+<!-- menyembunyikan script dan browser nonfunction pass()
+    {
+        var coba = 1;
+        do 
+        {
+            p = prompt ("tuliskan password dengan benar", "");
+            if (p=="Amikom")
+            {
+                alert("selamat datang friemds");
+                window.open("contoh perulangan fro.html");
+                break;
+            }
+            else 
+            {
+                alert("password salah!! ulangi lagi.");
+            }
+            if (coba==3)
+            {
+                alert ("maaf, kesempatan anda hanya 3 kali");
+                history.go(-1);
+            }
+            coba=coba+1;
+        }
+        while (coba<=3)
+    }
+    //akhir dari penyembunyian -->
+</script>
+<form method="post">
+    <input type="button" value="password" onclick="pass()">
+</form>
+</body>
+</html>
